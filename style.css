@@ -1,0 +1,31 @@
+
+#header{
+    background-color: #647DEE;
+    text-align: center;
+    color: white;
+}
+
+#searchForm{
+display: flex;
+flex-direction: column;
+}
+
+#hr{
+    width: 400px;
+    margin-left: 0%;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    
+}
+
+.cities{
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 40px;
+}
+
+
