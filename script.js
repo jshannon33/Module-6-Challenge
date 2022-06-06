@@ -1,7 +1,7 @@
 
 
 //key
-const apiKey = ;
+const apiKey = '';
 
 //example lat, lon, part
 let lat = '33.44';

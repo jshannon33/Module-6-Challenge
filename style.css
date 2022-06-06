@@ -5,9 +5,21 @@
     color: white;
 }
 
+.main{
+
+}
+
 #searchForm{
 display: flex;
 flex-direction: column;
+}
+
+#search{
+    background-color: aqua;
+    border-width: 1px;
+    border-radius: 5px;
+    width: 400px;
+    height: 40px;
 }
 
 #hr{
@@ -28,4 +40,7 @@ flex-direction: column;
     height: 40px;
 }
 
+#forecastDays{
+    background-color: #778899;
+}
 
