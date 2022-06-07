@@ -1,46 +1,76 @@
-
-#header{
+#header {
     background-color: #647DEE;
     text-align: center;
     color: white;
-}
-
-.main{
+    height: 70px;
 
 }
 
-#searchForm{
-display: flex;
-flex-direction: column;
+#searchArea {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-#search{
+#searchForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#submitSearch {
     background-color: aqua;
     border-width: 1px;
     border-radius: 5px;
     width: 400px;
     height: 40px;
+    font-size: larger;
 }
 
-#hr{
+#searchBox {
+    border-width: 1px;
+    border-radius: 5px;
+    width: 395px;
+    height: 35px;
+}
+
+#hr {
     width: 400px;
     margin-left: 0%;
 }
-.buttons{
+
+.buttons {
     display: flex;
     flex-direction: column;
     width: 400px;
-    
+
 }
 
-.cities{
+.cities {
     border-style: solid;
     border-width: 1px;
     border-radius: 5px;
     height: 40px;
+    margin-bottom: 8px;
+    background-color: #d3d3d3;
+    font-size: larger;
 }
 
-#forecastDays{
+.weather {
+    display: flex;
+    justify-content: center;
+}
+
+
+.forecast {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#forecastDays {
     background-color: #778899;
+    margin-right: 15px;
+    height: 250px;
+    width: 200px;
+    border-radius: 10px;
 }
-
